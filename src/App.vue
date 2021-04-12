@@ -60,7 +60,7 @@
               <span>Home</span>
             </a>
           </li>
-          <li class="side-nav__item">
+          <li class="side-nav__item side-nav__item--active">
             <a href="#" class="side-nav__link">
               <svg class="side-nav__icon">
                 <use href="/svg/sprite.svg#icon-key"></use>
@@ -81,7 +81,64 @@
         <div class="legal">&copy; 2021 by Wavevo. All rights reserved.</div>
       </nav>
 
-      <main class="hotel-view">Hotel view</main>
+      <main class="hotel-view">
+        <div class="gallery">
+          <figure class="gallery__item">
+            <img
+              src="/img/hotel-1.jpg"
+              alt="Photo of hotel 1"
+              class="gallery__photo"
+            />
+          </figure>
+          <figure class="gallery__item">
+            <img
+              src="/img/hotel-2.jpg"
+              alt="Photo of hotel 2"
+              class="gallery__photo"
+            />
+          </figure>
+          <figure class="gallery__item">
+            <img
+              src="/img/hotel-3.jpg"
+              alt="Photo of hotel 3"
+              class="gallery__photo"
+            />
+          </figure>
+        </div>
+
+        <div class="overview">
+          <h1 class="overview-heading">Hotel Las Palmas</h1>
+          <div class="overview__stars">
+            <svg class="overview__icon-star">
+              <use href="/svg/sprite.svg#icon-star"></use>
+            </svg>
+            <svg class="overview__icon-star">
+              <use href="/svg/sprite.svg#icon-star"></use>
+            </svg>
+            <svg class="overview__icon-star">
+              <use href="/svg/sprite.svg#icon-star"></use>
+            </svg>
+            <svg class="overview__icon-star">
+              <use href="/svg/sprite.svg#icon-star"></use>
+            </svg>
+            <svg class="overview__icon-star">
+              <use href="/svg/sprite.svg#icon-star"></use>
+            </svg>
+          </div>
+
+          <div class="overview__location">
+            <svg class="overview__icon-location">
+              <use href="/svg/sprite.svg#icon-location-pin"></use>
+              </svg>
+          </div>
+
+          <div class="overview__rating">
+            <div class="overview__rating-average">8.2</div>
+            <div class="overview__rating-count">429 votes</div>
+          </div>
+
+        </div>
+      </main>
     </div>
   </div>
 </template>
