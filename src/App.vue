@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <header class="header">
-      <!-- <img src="@/assets/logo.png" alt="trillo logo" class="logo"> -->
+      <img src="@/assets/logo.png" alt="trillo logo" class="logo" />
       <form action="#" class="search">
         <input
           type="text"
@@ -12,9 +12,7 @@
         />
         <button class="search__button">
           <svg class="search__icon">
-            <use
-              xlink:href="@/assets/svg/sprite.svg#icon-magnifying-glass"
-            ></use>
+            <use href="/svg/sprite.svg#icon-magnifying-glass"></use>
           </svg>
         </button>
       </form>
@@ -22,13 +20,13 @@
       <nav class="user-nav">
         <div class="user-nav__icon-box">
           <svg class="user-nav__icon">
-            <use xlink:href="@/assets/svg/sprite.svg#icon-bookmark"></use>
+            <use href="/svg/sprite.svg#icon-bookmark"></use>
           </svg>
           <span class="user-nav__notification">7</span>
         </div>
         <div class="user-nav__icon-box">
           <svg class="user-nav__icon">
-            <use xlink:href="@/assets/svg/sprite.svg#icon-chat"></use>
+            <use href="/svg/sprite.svg#icon-chat"></use>
           </svg>
           <span class="user-nav__notification">13</span>
         </div>
@@ -44,20 +42,62 @@
     </header>
 
     <div class="content">
-      <nav class="sidebar"></nav>
+      <nav class="sidebar">
+        <ul class="side-nav">
+          <li class="side-nav__item">
+            <a href="#" class="side-nav__link">
+              <svg class="side-nav__icon">
+                <use href="/svg/sprite.svg#icon-home"></use>
+              </svg>
+              <span>Home</span>
+            </a>
+          </li>
+          <li class="side-nav__item">
+            <a href="#" class="side-nav__link">
+              <svg class="side-nav__icon">
+                <use href="/svg/sprite.svg#icon-aircraft-landing"></use>
+              </svg>
+              <span>Home</span>
+            </a>
+          </li>
+          <li class="side-nav__item">
+            <a href="#" class="side-nav__link">
+              <svg class="side-nav__icon">
+                <use href="/svg/sprite.svg#icon-key"></use>
+              </svg>
+              <span>Home</span>
+            </a>
+          </li>
+          <li class="side-nav__item">
+            <a href="#" class="side-nav__link">
+              <svg class="side-nav__icon">
+                <use href="/svg/sprite.svg#icon-map"></use>
+              </svg>
+              <span>Home</span>
+            </a>
+          </li>
+        </ul>
+
+        <div class="legal">&copy; 2021 by Wavevo. All rights reserved.</div>
+      </nav>
+
       <main class="hotel-view">Hotel view</main>
     </div>
-    <footer class="footer">Copyright. Wavevo 2021</footer>
   </div>
 </template>
 
 
 <script>
+// import Icon from '@/components/Icon.vue';
+
 export default {
   data() {
     return {};
   },
   methods: {},
+  components: {
+    // Icon,
+  },
 };
 </script>
 
