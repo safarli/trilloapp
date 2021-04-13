@@ -296,18 +296,16 @@
     &__item {
         flex: 0 0 50%;
         margin-bottom: .7rem;
-        display: flex;
-        align-items: center;
+    }
 
-        &::before{
-            content: "";
-            width: 2rem;
-            height: 2rem;
-            display: inline-block;
-            background-image: url('/svg/chevron.svg');
-            background-repeat: no-repeat;
-            // background-size: contain ;
-        }
+    &__item::before{
+        content: "";
+        display: inline-block;
+        height: 2rem;
+        width: 2rem;
+        margin-right: .7rem;
+
+        background-color: var(--color-primary-light);
     }
 }
 
