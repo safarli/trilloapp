@@ -1,5 +1,6 @@
 <template>
   <div class="container">
+    <!-- HEADER START -->
     <header class="header">
       <img src="@/assets/logo.png" alt="trillo logo" class="logo" />
       <form action="#" class="search">
@@ -17,6 +18,7 @@
         </button>
       </form>
 
+      <!-- USER NAV START -->
       <nav class="user-nav">
         <div class="user-nav__icon-box">
           <svg class="user-nav__icon">
@@ -39,10 +41,14 @@
           <span class="user-nav__user-name">Jonas</span>
         </div>
       </nav>
+      <!-- USER NAV END -->
     </header>
+    <!-- HEADER END -->
 
     <div class="content">
+      <!-- SIDEBAR START -->
       <nav class="sidebar">
+        <!-- SIDE NAV-BAR START -->
         <ul class="side-nav">
           <li class="side-nav__item">
             <a href="#" class="side-nav__link">
@@ -77,11 +83,13 @@
             </a>
           </li>
         </ul>
-
+        <!-- SIDE NAV-BAR END -->
         <div class="legal">&copy; 2021 by Wavevo. All rights reserved.</div>
       </nav>
+      <!-- SIDEBAR END -->
 
       <main class="hotel-view">
+        <!-- GALLERY -->
         <div class="gallery">
           <figure class="gallery__item">
             <img
@@ -105,7 +113,9 @@
             />
           </figure>
         </div>
+        <!-- GALLERY END -->
 
+        <!-- OVERVIEW START-->
         <div class="overview">
           <h1 class="overview-heading">Hotel Las Palmas</h1>
           <div class="overview__stars">
@@ -129,15 +139,64 @@
           <div class="overview__location">
             <svg class="overview__icon-location">
               <use href="/svg/sprite.svg#icon-location-pin"></use>
-              </svg>
+            </svg>
+            <button class="btn-inline">Albufeira, Portugal</button>
           </div>
 
           <div class="overview__rating">
             <div class="overview__rating-average">8.2</div>
             <div class="overview__rating-count">429 votes</div>
           </div>
+        </div>
+        <!-- OVERVIEW END -->
+
+        <!-- DETAIL START -->
+        <div class="detail">
+          <!-- DESCRIPTION START -->
+          <div class="description">
+            <p class="paragraph">
+              LOREM IPSUM DOLOR SIT AMET CONSECTETUR ADIPISICING ELIT. SINT
+              fugiat est itaque. Minima, perferendis reprehenderit. Sequi quo
+              nostrum eveniet. Porro maxime assumenda vero officia eius id odit
+              illo aut tempore.
+            </p>
+            <p class="paragraph">
+              Assumenda tenetur harum recusandae voluptatibus voluptas nostrum
+              officiis porro, itaque dicta ea incidunt excepturi veritatis
+              suscipit similique temporibus quisquam minus rerum dolor.
+            </p>
+            <ul class="list">
+              <li class="list__item">Close to the beach</li>
+              <li class="list__item">Breakfast included daksdf adfksfj XXXX asdfsfsd</li>
+              <li class="list__item">Free airport shuttle</li>
+              <li class="list__item">Free wifi on all rooms</li>
+              <li class="list__item">Air conditioning and heating</li>
+              <li class="list__item">Pets allowed</li>
+              <li class="list__item">We speak all languages</li>
+              <li class="list__item">Perfect for families</li>
+            </ul>
+            <div class="recommend">
+              <p class="recommend__count">
+                Lucy and 3 other friends recommend this hotel.
+              </p>
+              <div class="recommend__friends">
+                <img src="/img/persons/man-1.jpg" alt="Friend 1" class="recommend__photo">
+                <img src="/img/persons/woman-1.jpg" alt="Friend 2" class="recommend__photo">
+                <img src="/img/persons/man-2.jpg" alt="Friend 3" class="recommend__photo">
+                <img src="/img/persons/man-3.jpg" alt="Friend 4" class="recommend__photo">
+              </div>
+            </div>
+          </div>
+          <!-- DESCRIPTION END -->
+
+          <!-- USER REVIEWS START -->
+          <div class="user-reviews">
+            <p></p>
+          </div>
+          <!-- USER REVIEWS END -->
 
         </div>
+        <!-- DETAIL END -->
       </main>
     </div>
   </div>
