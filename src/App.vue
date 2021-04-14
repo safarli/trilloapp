@@ -167,7 +167,7 @@
             </p>
             <ul class="list">
               <li class="list__item">Close to the beach</li>
-              <li class="list__item">Breakfast included daksdf adfksfj XXXX asdfsfsd</li>
+              <li class="list__item">Breakfast included</li>
               <li class="list__item">Free airport shuttle</li>
               <li class="list__item">Free wifi on all rooms</li>
               <li class="list__item">Air conditioning and heating</li>
@@ -175,15 +175,32 @@
               <li class="list__item">We speak all languages</li>
               <li class="list__item">Perfect for families</li>
             </ul>
+
             <div class="recommend">
               <p class="recommend__count">
                 Lucy and 3 other friends recommend this hotel.
               </p>
               <div class="recommend__friends">
-                <img src="/img/persons/man-1.jpg" alt="Friend 1" class="recommend__photo">
-                <img src="/img/persons/woman-1.jpg" alt="Friend 2" class="recommend__photo">
-                <img src="/img/persons/man-2.jpg" alt="Friend 3" class="recommend__photo">
-                <img src="/img/persons/man-3.jpg" alt="Friend 4" class="recommend__photo">
+                <img
+                  src="/img/persons/man-1.jpg"
+                  alt="Friend 1"
+                  class="recommend__photo"
+                />
+                <img
+                  src="/img/persons/woman-1.jpg"
+                  alt="Friend 2"
+                  class="recommend__photo"
+                />
+                <img
+                  src="/img/persons/man-2.jpg"
+                  alt="Friend 3"
+                  class="recommend__photo"
+                />
+                <img
+                  src="/img/persons/man-3.jpg"
+                  alt="Friend 4"
+                  class="recommend__photo"
+                />
               </div>
             </div>
           </div>
@@ -191,10 +208,58 @@
 
           <!-- USER REVIEWS START -->
           <div class="user-reviews">
-            <p></p>
+            <!-- REVIEW START-->
+            <figure class="review">
+              <blockquote class="review__text">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus
+                quis voluptatum voluptatem, omnis consectetur harum iste dolore
+                deleniti minima, reiciendis veritatis vero alias sit blanditiis
+                eaque fugiat eveniet unde necessitatibus!
+              </blockquote>
+              <figcaption class="review__user">
+                <img
+                  src="/img/persons/man-3.jpg"
+                  alt=""
+                  class="review__user-photo"
+                />
+                <div class="review__user-box">
+                  <p class="review__user-name">Nick Smith</p>
+                  <p class="review__user-date">April 14th, 2021</p>
+                </div>
+                <div class="review__rating">7.8</div>
+              </figcaption>
+            </figure>
+            <!-- REVIEW END -->
+
+            <!-- REVIEW START -->
+            <figure class="review">
+              <blockquote class="review__text">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus
+                quis voluptatum voluptatem, omnis consectetur harum iste dolore
+                deleniti minima, reiciendis veritatis vero alias sit blanditiis
+                eaque fugiat eveniet unde necessitatibus!
+              </blockquote>
+              <figcaption class="review__user">
+                <img
+                  src="/img/persons/woman-2.jpg"
+                  alt=""
+                  class="review__user-photo"
+                />
+                <div class="review__user-box">
+                  <p class="review__user-name">Jessica Sun</p>
+                  <p class="review__user-date">December 26th, 2021</p>
+                </div>
+                <div class="review__rating">8.1</div>
+              </figcaption>
+            </figure>
+            <!-- REVIEW END -->
+
+            <!-- set tabindex to 1 for getting focus on div element (or use button), default is 0 -->
+            <div class="btn-inline" tabindex="1">
+              Show all <span>&rarr;</span>
+            </div>
           </div>
           <!-- USER REVIEWS END -->
-
         </div>
         <!-- DETAIL END -->
       </main>
