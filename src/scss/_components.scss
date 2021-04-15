@@ -418,6 +418,59 @@
 }
 
 
+////////////////////////////
+// CTA
+.cta {
+    padding: 3.5rem 0;
+    text-align: center;
+
+    &__book-now {
+        font-size: 2rem;
+        font-weight: 300;
+        text-transform: uppercase;
+        margin-bottom: 2.5rem;
+    }
+}
+
+.btn {
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 300;
+    border: none;
+    text-transform: uppercase;
+    border-radius: 100px;
+    background-image: linear-gradient(to right, var(--color-primary-light), var(--color-primary-dark));
+    position: relative;
+    overflow: hidden;
+
+    & > * {
+        display: block;
+        height: 100%;
+        width: 100%;
+        transition: all .4s;
+    }
+
+    &__visible {
+        padding: 2rem 7.5rem;
+    }
+
+    &__invisible {
+        padding: 2rem 0;
+        position: absolute;
+        left: 0;
+        top: -100%;
+    }
+
+    &:hover &__visible {
+        transform: translateY(100%);
+    }
+
+    &:hover &__invisible {
+        top: 0;
+    }
+}
+
+
 ////// ANIMATION KEYFRAMES
 @keyframes pulsate {
     0% {
